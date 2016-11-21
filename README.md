@@ -12,5 +12,5 @@ Commits the tracked changes and prepares them to be pushed to a remote repositor
 git checkout <br>
 Switch branches or restore working tree files
 
-git push origin <your-branch> <br>
+git push origin (your-branch) <br>
 Update remote refs along with associated objects
