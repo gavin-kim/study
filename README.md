@@ -9,8 +9,8 @@ Adds the file to your local repository and stages it for commit. To unstage a fi
 git commit -m "Comment" <br>
 Commits the tracked changes and prepares them to be pushed to a remote repository.
 
-git checkout <br>
+git checkout (branch) <br>
 Switch branches or restore working tree files
 
-git push origin (your-branch) <br>
+git push origin (branch) <br>
 Update remote refs along with associated objects
