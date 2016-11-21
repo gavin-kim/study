@@ -1,1 +1,1 @@
-# sheridan
+# Study resources
