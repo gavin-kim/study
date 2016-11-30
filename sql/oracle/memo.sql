@@ -90,7 +90,7 @@ BEGIN
 END;
 /
 
-/* Call Procedure */
+/* Call Procedure (param => value) */
 CALL procedure1(‘myId’, pl_name => ‘kim’);
 
 /* Create Function */
