@@ -81,8 +81,8 @@ CREATE OR REPLACE PROCEDURE procedure1 (
     param_id VARCHAR2 := ‘0’,
     param_name VARCHAR2
     param_value1 IN      /* can be a value     */
-    param_value2 OUT     /* must be a variable */ 
-    param_value3 IN OUT  /* must be a variable	*/
+    param_value2 OUT     /* Must be a variable */ 
+    param_value3 IN OUT  /* Must be a variable	*/
 )
 AS
 BEGIN
