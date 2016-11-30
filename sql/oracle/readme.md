@@ -1,6 +1,5 @@
 # PL SQL for Oracle
 
-
 SET SERVEROUTPUT ON;    // server prints output
 
 
@@ -9,7 +8,7 @@ PRINT g_var                   // Print the global variable
 
 
 DECLARE
-    CURSOR var_cur IS    // Declare cursor variable
+    CURSOR var_cur IS    >// Declare cursor variable
     SELECT ……            // store select result
 BEGIN
     OPEN var_cur;        // open cursor 
