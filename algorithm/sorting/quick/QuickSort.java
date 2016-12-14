@@ -5,7 +5,7 @@ import java.util.*;
 public class QuickSort {
 
     public static void main(String[] args) {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner input = new Scanner(System.in);
 
         int n = input.nextInt();
@@ -14,53 +14,33 @@ public class QuickSort {
         for (int i = 0; i < n; i++) {
             arr[i] = input.nextInt();
         }
-        quickSort(arr, n);
+
+        quickSort(arr);
     }
 
-    public static void quickSort(int[] arr, int n) {
-        if (n > 1) {
+    public static void quickSort(int[] arr) {
+        partition(arr, 0, arr.length - 1);
+    }
 
-            int p = arr[0];
+    private static void partition(int[] arr, int low, int high) {
+        if (low < high) {
+            int pivot = arr[high];
+            int i = low;
 
-            // create two sub arrays
-            int[] left = new int[n];
-            int[] right = new int[n];
-
-            // left index and right index
-            int li = 0, ri = 0;
-
-            // divide
-            for (int i = 1; i < n; i++) {
-                if (arr[i] < p) {
-                    left[li++] = arr[i];
-                } else {
-                    right[ri++] = arr[i];
+            for (int j = low; j < high; j++) {
+                if (arr[j] <= pivot) {
+                    int tmp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = tmp;
+                    i++;
                 }
             }
+            int tmp = arr[i];
+            arr[i] = arr[high];
+            arr[high] = tmp;
 
-            // sort
-            quickSort(left, li);
-            quickSort(right, ri);
-
-
-            // merge
-            for (int i = 0; i < li; i++) {
-                arr[i] = left[i];
-            }
-
-            arr[li++] = p;
-
-            for (int i = 0; i < ri; i++) {
-                arr[li + i] = right[i];
-            }
-            printArray(arr , n);
+            partition(arr, low, i - 1);
+            partition(arr, i + 1, high);
         }
-    }
-
-    public static void printArray(int[] arr, int n) {
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
     }
 }
