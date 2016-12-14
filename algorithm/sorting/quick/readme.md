@@ -1,1 +1,1 @@
-<img src="./quicksort.jpg">
+<img src="./quicksort.png">
