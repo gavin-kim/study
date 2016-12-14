@@ -5,7 +5,7 @@ import java.util.*;
 public class QuickSort {
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+
         Scanner input = new Scanner(System.in);
 
         int n = input.nextInt();
@@ -27,6 +27,7 @@ public class QuickSort {
             int pivot = arr[high];
             int i = low;
 
+            // partition before pivot
             for (int j = low; j < high; j++) {
                 if (arr[j] <= pivot) {
                     int tmp = arr[i];
@@ -35,6 +36,8 @@ public class QuickSort {
                     i++;
                 }
             }
+
+            // place the pivot at the center
             int tmp = arr[i];
             arr[i] = arr[high];
             arr[high] = tmp;
