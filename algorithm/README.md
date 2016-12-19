@@ -1,3 +1,3 @@
 # Algorithm
 
-<img src="./RecursiveTree.png">
+<img src="./RecursionTree.png">
