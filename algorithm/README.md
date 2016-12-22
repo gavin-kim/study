@@ -4,4 +4,4 @@ A comparison sort algorithm cannot beat <strong><i>n * log(n)</i></strong> (wors
 
 <img src="./RecursionTree.png">
 <hr>
-<img src="./recursive devide and conquer.jpg">
+<img src="./recursive divide and conquer.jpg">
