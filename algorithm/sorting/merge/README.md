@@ -2,7 +2,8 @@
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-
+sum_(i=1)^n i^3=((n(n+1))/2)^2
+		
 Top-down mergesort: 1/2 NlogN ~ NlogN compares to sort an array of length N
 
 C(N): the number of compares needed to sort an array[N] <br>
