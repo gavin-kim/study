@@ -7,11 +7,13 @@ Insertion Sort and the simple version of Quicksort were stable, <br>
 but the faster **in-place** version of Quicksort was not (since it scrambled around elements while sorting).
 <hr>
 <h3>To improve the performance</h3>
-<h5>Cut off to insertion sort:</h5> 
+<h4>Cut off to insertion sort:</h4> 
 `if (hi <= lo) return;` ==> `if (hi <= lo + M) { Insertion.sort(a, lo, hi); return; }` <br>
 The optimum value of the cutoff M is system-dependent, but any value between 5 and 15 is likely to work well in most situations
-<h5>Median-of-three partitioning:</h5>
+<h4>Median-of-three partitioning:</h4>
+<img src="./3WayPartitioning.png">
 Exercises2.3.18 and 2.3.19 <br>
-<h5>Entropy-optimal sorting:</h5> 
-
+<h4>Entropy-optimal sorting:</h4> 
+Arrays with large numbers of dubplicated keys. For example, a subarray that consists solely of items that are equal does not
+need to be processed further, but general quicksort keeps partitioning down to small subarrays.
 <img src="./quicksort.png">
