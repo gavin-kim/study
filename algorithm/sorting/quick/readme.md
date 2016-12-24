@@ -8,10 +8,10 @@ but the faster **in-place** version of Quicksort was not (since it scrambled aro
 <hr>
 <h3>To improve the performance</h3>
 <h5>Cut off to insertion sort:</h5> 
-`if (hi <= lo) return;` ==> `if (hi <= lo + M) { Insertion.sort(a, lo, hi); return; }`
-
+`if (hi <= lo) return;` ==> `if (hi <= lo + M) { Insertion.sort(a, lo, hi); return; }` <br>
 The optimum value of the cutoff M is system-dependent, but any value between 5 and 15 is likely to work well in most situations
 <h5>Median-of-three partitioning:</h5>
+Exercises2.3.18 and 2.3.19 <br>
 <h5>Entropy-optimal sorting:</h5> 
 
 <img src="./quicksort.png">
