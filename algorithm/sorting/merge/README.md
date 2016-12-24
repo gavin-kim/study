@@ -1,6 +1,6 @@
 # Merge sort
 		
-Top-down mergesort: 1/2 NlogN ~ NlogN compares to sort an array of length N
+**Top-down mergesort:** 1/2 NlogN ~ NlogN compares to sort an array of length N
 
 **C(N):** the number of compares needed to sort an array[N] <br>
 **C(0) = C(1) = 0:** There is no compare and merge for array[0 ~ 1] <br>
