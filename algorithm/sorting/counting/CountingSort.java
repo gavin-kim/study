@@ -49,7 +49,7 @@ public class CountingSort {
             count[i] += count[i - 1];
         }
 
-        // to keep the order n, n-1, n-2 ... 1, 0
+        // to keep the order n-1, n-2, n-3 ... 1, 0
         for (int i = keys.length - 1; i >= 0; i--) {
             sortedKeys[--count[keys[i]]] = keys[i];
             valueIndex[count[keys[i]]] = i;
