@@ -1,8 +1,11 @@
 # Merge sort
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML"></script>
-<script src="ASCIIMathML.js"></script>
-
-```sum_(i=1)^n i^3=((n(n+1))/2)^2```
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 		
 Top-down mergesort: 1/2 NlogN ~ NlogN compares to sort an array of length N
 
