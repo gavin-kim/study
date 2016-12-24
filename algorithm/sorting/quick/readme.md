@@ -7,11 +7,9 @@ Insertion Sort and the simple version of Quicksort were stable, <br>
 but the faster **in-place** version of Quicksort was not (since it scrambled around elements while sorting).
 <hr>
 <h4>To improve quick sort algorithm</h4>
-<ul>
-  <li>**Cut off to insertion sort:** if (hi <= lo) return;
-in sort() with a statement that invokes insertion sort for small subarrays:
-if (hi <= lo + M) { Insertion.sort(a, lo, hi); return; }</li>
-  <li>**Median-of-three partitioning:** </li>
-  <li>**Entropy-optimal sorting:** </li>
-</ul>
+<h6>Cut off to insertion sort:</h6> 
+if (hi <= lo) return; ==> if (hi <= lo + M) { Insertion.sort(a, lo, hi); return; }
+<h6>Median-of-three partitioning:</h6>
+<h6>Entropy-optimal sorting:</h6> 
+
 <img src="./quicksort.png">
