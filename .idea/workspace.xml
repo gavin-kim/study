@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0f6a7cc6-e8b0-41a8-b020-e50196350535" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/MergeSort.class" afterPath="$PROJECT_DIR$/output/MergeSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithm/sorting/merge/MergeSort.java" afterPath="$PROJECT_DIR$/algorithm/sorting/merge/MergeSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/README.md" afterPath="$PROJECT_DIR$/output/README.md" />
     </list>
@@ -22,14 +23,12 @@
       <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/sorting/merge/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <state relative-caret-position="285">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,6 +216,9 @@
     <property name="js-jscs-nodeInterpreter" value="D:\servers\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\algorithm" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\algorithm\sorting" />
     </key>
@@ -645,12 +647,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482531956460</updated>
-      <workItem from="1482531957623" duration="17164000" />
+      <workItem from="1482531957623" duration="19427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17164000" />
+    <option name="totallyTimeSpent" value="19427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -755,14 +757,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/sorting/merge/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="285">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
           </folding>
         </state>
       </provider>
