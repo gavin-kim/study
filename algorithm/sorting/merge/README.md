@@ -5,7 +5,7 @@
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 </script>
-$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$
+\\(ax^2 + bx + c = 0\\)
 		
 Top-down mergesort: 1/2 NlogN ~ NlogN compares to sort an array of length N
 
