@@ -1,17 +1,35 @@
 import java.util.Arrays;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class MergeSort {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 4, 5};
-        merge(arr, 1, 2,3);
+
+        int[] arr = new int[]{6, 2, 3, 4, 5, 9, 3, 2, 1, 0, 1, 9};
+
+        long start = System.nanoTime();
+
+        mergeSort(arr);
+
+        long end = System.nanoTime();
+
+        Arrays.stream(arr).forEach(System.out::println);
+        System.out.println((end - start) + "ns");
     }
 
     public static void mergeSort(int[] arr) {
-
+        sort(arr, 0, arr.length -1);
     }
 
+    public static void sort(int[] arr, int lo, int hi) {
+        if (lo < hi) {
+            int mid = (lo + hi) / 2;
+            sort(arr, lo, mid);
+            sort(arr, mid + 1, hi);
+            merge(arr, lo, mid, hi);
+        }
+    }
 
 
     // Abstract in-place merge
