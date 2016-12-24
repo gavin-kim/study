@@ -1,4 +1,4 @@
-# Algorithm
+# Sorting
 <hr>
 **TODO** <br>
 **Use insertion sort for small subarrays:** 
