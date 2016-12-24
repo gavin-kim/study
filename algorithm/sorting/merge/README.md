@@ -1,7 +1,6 @@
 # Merge sort
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML"></script>
+<script src="ASCIIMathML.js"></script>
 sum_(i=1)^n i^3=((n(n+1))/2)^2
 		
 Top-down mergesort: 1/2 NlogN ~ NlogN compares to sort an array of length N
