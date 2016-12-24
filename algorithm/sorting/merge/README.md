@@ -1,13 +1,6 @@
 # Merge sort
-<<<<<<< HEAD
-
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-=======
-		
+	
 **Top-down mergesort:** 1/2 NlogN ~ NlogN compares to sort an array of length N
->>>>>>> 01a27ebeacc426e495e93046703ea7fdcf694b49
 
 **C(N):** the number of compares needed to sort an array[N] <br>
 **C(0) = C(1) = 0:** There is no compare and merge for array[0 ~ 1] <br>
