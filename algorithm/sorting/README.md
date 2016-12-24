@@ -1,8 +1,6 @@
 # Sorting
 <h3>TODO</h3>
-**Use insertion sort for small subarrays:** 
-Switching to insertion sort for small subarrays (length 15 or less) will improve the running time of a typical mergesort implementation by 10 to 15.
-percent (Exercise 2.2.23).<br>
+**Use insertion sort for small subarrays:** Exercise 2.2.23<br>
 **Test whether the array is already in order:** Exercise 2.2.8 <br>
 **Eliminate the copy to the auxiliary array:** Exercise 2.2.11 <br>
 <hr>
