@@ -5,7 +5,7 @@
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 </script>
-\\(ax^2 + bx + c = 0\\)
+\\\(ax^2 + bx + c = 0\\\)
 		
 Top-down mergesort: 1/2 NlogN ~ NlogN compares to sort an array of length N
 
