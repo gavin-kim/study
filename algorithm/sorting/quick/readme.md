@@ -6,7 +6,7 @@ but quicksort is typically faster because (even though it does 39 percent more c
 Insertion Sort and the simple version of Quicksort were stable, <br> 
 but the faster **in-place** version of Quicksort was not (since it scrambled around elements while sorting).
 <hr>
-<h4>To improve quick sort algorithm</h4>
+<h3>To improve quick sort algorithm</h3>
 <h5>Cut off to insertion sort:</h5> 
 `if (hi <= lo) return;` ==> `if (hi <= lo + M) { Insertion.sort(a, lo, hi); return; }`
 
