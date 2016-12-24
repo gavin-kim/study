@@ -1,4 +1,4 @@
-gggggggggggggggggggggg# Merge sort
+# Merge sort
 		
 Top-down mergesort: 1/2 NlogN ~ NlogN compares to sort an array of length N
 
