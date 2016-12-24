@@ -1,6 +1,6 @@
 # Algorithm
 <hr>
-**TODO**
+**TODO** <br>
 **Use insertion sort for small subarrays:** 
 Switching to insertion sort for small subarrays (length 15 or less) will improve the running time of a typical mergesort implementation by 10 to 15.
 percent (Exercise 2.2.23).<br>
