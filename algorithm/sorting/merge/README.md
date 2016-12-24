@@ -14,4 +14,4 @@ C([N/2]) + C([N/2]): Sorting <br>
 array of length N.
 
 **Proof:** Each merge uses at most 6N array accesses (2N for the copy, 2N for the
-move back, and at most 2N for compares).
+merge back, and at most 2N for compares).
