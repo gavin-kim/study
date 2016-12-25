@@ -16,7 +16,9 @@ The optimum value of the cutoff M is system-dependent, but any value between 5 a
 Exercises2.3.18 and 2.3.19 <br>
 
 <h4>Entropy-optimal sorting:</h4> 
-Quicksort with 3-way partitioning is entropy-optimal
+Quicksort with 3-way partitioning is entropy-optimal. 
+
 Arrays with large numbers of dubplicated keys. For example, a subarray that consists solely of items that are equal does not
 need to be processed further, but general quicksort keeps partitioning down to small subarrays.
+
 <img src="./3WayPartitioning.png">
