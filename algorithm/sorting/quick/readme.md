@@ -5,6 +5,8 @@ but quicksort is typically faster because (even though it does 39 percent more c
 <hr>
 Insertion Sort and the simple version of Quicksort were stable, <br> 
 but the faster **in-place** version of Quicksort was not (since it scrambled around elements while sorting).
+
+<img src="./QuickSort.png">
 <hr>
 <h3>To improve the performance</h3>
 
