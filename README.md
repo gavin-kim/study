@@ -1,4 +1,5 @@
 # Study
+<img src="images/git_work_flow.jpg">
 
 $ git init <br>
 Create an empty Git repository or reinitialize an existing one<br><br>
@@ -30,5 +31,3 @@ $ git commit    (3)<br><br>
 (1) Create a /path/to/my/codebase/.git directory.<br>
 (2) Add all existing files to the index.<br>
 (3) Record the pristine state as the first commit in the history.<br><br>
-
-<img src="images/git_work_flow.jpg">
