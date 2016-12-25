@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 public class MergeSort {
 
-    public static final int MAX = 10000000;
+    public static final int MAX = 11;
 
     public static void main(String[] args) {
 
@@ -14,11 +14,12 @@ public class MergeSort {
 
         long start = System.nanoTime();
 
-        mergeSortTD(arr);
+        mergeSortBU(arr);
 
         long end = System.nanoTime();
         System.out.println((end - start) + "ns");
 
+        IntStream.of(arr).forEach(System.out::println);
 
         arr = new Random().ints(MAX).toArray();
 
