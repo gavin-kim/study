@@ -15,7 +15,11 @@ but the faster **in-place** version of Quicksort was not (since it scrambled aro
 The optimum value of the cutoff M is system-dependent, but any value between 5 and 15 is likely to work well in most situations
 
 <h4>Median-of-three partitioning:</h4>
-Exercises2.3.18 and 2.3.19 <br>
+
+use the median of a small sample of items taken from the subarray as the
+partitioning item. Doing so will give a slightly better partition, but at the cost of computing
+the median. It turns out that most of the available improvement comes from
+choosing a sample of size 3 and then partitioning on the middle item (Exercises 2.3.18 and 2.3.19) <br>
 
 <h4>Entropy-optimal sorting:</h4> 
 Quicksort with 3-way partitioning is entropy-optimal. 
