@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+
+    <!-- NOTE: ONlY ONE TIME, A class can be defined for the bean -->
+
+    <bean id="knight" class="dependencyinjection.Knight" >
+        <constructor-arg ref="quest" /> <!-- Inject quest bean -->
+    </bean>
+
+
+    <bean id="quest" class="dependencyinjection.SlayDragonQuest" >
+        <constructor-arg value="#{T(System).out}" /> <!-- Create SlayDragonQuest object -->
+    </bean>
+
+</beans>

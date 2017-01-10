@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+    <bean id="knight" class="dependencyinjection.Knight" >
+        <property name="quest">
+            <ref bean="quest" />
+        </property>
+    </bean>
+
+    <bean id="quest" class="dependencyinjection.SlayDragonQuest" >
+        <property name="stream" >
+            <value>#{T(System).out}</value>
+        </property>
+    </bean>
+
+
+    <!-- Create Minstrel bean -->
+    <bean id="minstrel" class="dependencyinjection.Minstrel">
+        <constructor-arg value="#{T(System).out}" />
+    </bean>
+
+
+
+    <aop:config>
+        <!-- Minstrel class(id="minstrel") is used for the aspect -->
+        <!-- Note: Minstrel can be applied without Knight
+                   It can be used with other Spring beans as well -->
+        <aop:aspect ref="minstrel">
+
+            <!-- Define point cut: for matching method execution join points,
+                                   this is the primary pointcut designator -->
+            <!-- (*,String) : (any type, string type)
+                 (..)       : any number of parameters (zero or more)
+                 com.xyz.service.*  : anything within service package
+                 com.xyz.service..* : anything within service and sub-package
+
+                 * *.doQuest(..) : (any return type) (any package).doQuest(..)
+            -->
+            <aop:pointcut id="start"
+                          expression="execution(* *.doQuest(..))" />
+            <aop:before pointcut-ref="start"
+                        method="singBeforeQuest" />
+            <aop:after pointcut-ref="start"
+                       method="singAfterQuest" />
+        </aop:aspect>
+    </aop:config>
+
+
+</beans>
+
