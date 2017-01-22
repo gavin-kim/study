@@ -1,5 +1,3 @@
-#Web
-
 # Web API Standards
 
 * [Guidelines](#guidelines)
