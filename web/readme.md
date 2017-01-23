@@ -11,6 +11,8 @@
 * [Request & Response Examples](#request--response-examples)
 
 ## Guidelines
+
+### HTTP methods
 * GET: retrieve inforamtion 
 
             GET /addresses/1
