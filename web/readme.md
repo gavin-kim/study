@@ -9,11 +9,8 @@
 * [Versions](#versions)
 * [Record limits](#record-limits)
 * [Request & Response Examples](#request--response-examples)
-* [Mock Responses](#mock-responses)
-* [JSONP](#jsonp)
 
 ## Guidelines
-
 * GET: retrieve inforamtion 
 
             GET /addresses/1
@@ -35,6 +32,7 @@
 * DELETE: request that a resource be removed. the resource does not have to be removed immediately. It coutd be an asynchronous or long-running request.
    
             DELETE /addresses/1
+
 
 * 1XX - informational
 * 2XX - success
