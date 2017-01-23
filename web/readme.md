@@ -25,8 +25,8 @@
 * PUT: store an entity at a URI. PUT can create a new entity or update an existing one. PUT request is idempotent.
 
             PUT /addresses/1
-
-            PUT replaces an existing entity. If only a subset of data elements are provided.
+            
+            * PUT replaces an existing entity. If only a subset of data elements are provided.
 
 * PATCH: update only the specified fields of an entity at a URI. PATCH request is idempotent.
    
