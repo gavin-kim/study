@@ -15,7 +15,8 @@
 ## Guidelines
 
 * GET: retrieve inforamtion 
-vdf:
+
+vd:
 
       GET /addresses/1
 
