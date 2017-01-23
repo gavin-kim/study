@@ -12,11 +12,9 @@
 * [Mock Responses](#mock-responses)
 * [JSONP](#jsonp)
 
-## Guidelines
+### Guidelines
 
 * GET: retrieve inforamtion 
-   
-   e:
    
       GET /addresses/1
 
