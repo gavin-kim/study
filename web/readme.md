@@ -33,7 +33,6 @@
    
             DELETE /addresses/1
 
-
 * 1XX - informational
 * 2XX - success
 * 3XX - redirection
