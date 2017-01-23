@@ -15,7 +15,9 @@
 ## Guidelines
 
 * GET: retrieve inforamtion 
-
+   
+   Example:
+   
    GET /addresses/1
 
 * POST: used to create or updated an entity 
