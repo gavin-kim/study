@@ -33,6 +33,8 @@
    
             DELETE /addresses/1
 
+### HTTP status codes
+
 * 1XX - informational
 * 2XX - success
 * 3XX - redirection
