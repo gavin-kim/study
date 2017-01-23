@@ -16,7 +16,7 @@
 
 * GET: retrieve inforamtion 
 
-vd:
+      vd:
 
       GET /addresses/1
 
