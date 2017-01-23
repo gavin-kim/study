@@ -14,13 +14,44 @@
 
 ## Guidelines
 
-This document provides guidelines and examples for White House Web APIs, encouraging consistency, maintainability, and best practices across applications. White House APIs aim to balance a truly RESTful API interface with a positive developer experience (DX).
+* GET: retrieve inforamtion                
+   GET /addresses/1
 
-This document borrows heavily from:
-* [Designing HTTP Interfaces and RESTful Web Services](https://www.youtube.com/watch?v=zEyg0TnieLg)
-* [API Facade Pattern](http://apigee.com/about/resources/ebooks/api-fa%C3%A7ade-pattern), by Brian Mulloy, Apigee
-* [Web API Design](http://pages.apigee.com/web-api-design-ebook.html), by Brian Mulloy, Apigee
-* [Fielding's Dissertation on REST](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
+**POST**: used to create or updated an entity 
+`POST /addresses`
+
+**PUT**: store an entity at a URI. PUT can create a new entity or update an existing one. PUT request is idempotent.
+**NOTE**: PUT replaces an existing entity. If only a subset of data elements are provided.
+`PUT /addresses/1`
+
+**PATCH**: update only the specified fields of an entity at a URI. PATCH request is idempotent.
+`PATCH /addresses/1`
+
+**DELETE**: request that a resource be removed. the resource does not have to be removed immediately.
+It coutd be an asynchronous or long-running request.
+`DELETE /addresses/1`
+
+<ul>
+<li>1XX - informational</li>
+<li>2XX - success</li>
+<li>3XX - redirection</li>
+<li>4XX - client error</li>
+<li>5XX - server error</li>
+</ul>
+
+GET    /chat/session/new 
+POST   /chat/session
+DELETE /chat/session
+
+
+GET    /users/new
+POST   /users/              
+GET    /users/xxx           GET the details of the user with id xxx
+PUT    /users/xxx           Update a user with id xxx 
+
+(POST is used when you don't know where to put)
+POST /users        
+PUT  /user/id
 
 ## Pragmatic REST
 
