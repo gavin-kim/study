@@ -26,7 +26,7 @@
 
             PUT /addresses/1
 
-* NOTE: PUT replaces an existing entity. If only a subset of data elements are provided.
+            PUT replaces an existing entity. If only a subset of data elements are provided.
 
 * PATCH: update only the specified fields of an entity at a URI. PATCH request is idempotent.
    
