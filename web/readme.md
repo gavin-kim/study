@@ -12,10 +12,11 @@
 * [Mock Responses](#mock-responses)
 * [JSONP](#jsonp)
 
-### Guidelines
+## Guidelines
 
 * GET: retrieve inforamtion 
-   
+vdf:
+
       GET /addresses/1
 
 * POST: used to create or updated an entity 
